@@ -6,7 +6,6 @@
     },
     play: function(e){ 
       var sound = $(this).data("sound")
-      console.log("play "+ sound)
       $("#"+sound)[0].play()
     }
   }
